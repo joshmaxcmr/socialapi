@@ -1,0 +1,11 @@
+{"asctime": "2025-09-22T09:15:13", "msecs": 58.0, "levelname": "INFO", "correlation_id": "-", "name": "uvicorn.error", "lineno": 62, "message": "Application startup complete."}
+{"asctime": "2025-09-22T09:15:42", "msecs": 75.0, "levelname": "INFO", "correlation_id": "349656c6", "name": "uvicorn.access", "lineno": 473, "message": "127.0.0.1:3242 - \"GET / HTTP/1.1\" 404"}
+{"asctime": "2025-09-22T09:15:42", "msecs": 399.0, "levelname": "INFO", "correlation_id": "a66751d2", "name": "uvicorn.access", "lineno": 473, "message": "127.0.0.1:3242 - \"GET /favicon.ico HTTP/1.1\" 404"}
+{"asctime": "2025-09-22T09:16:06", "msecs": 281.0, "levelname": "INFO", "correlation_id": "e3b4718d", "name": "uvicorn.access", "lineno": 473, "message": "127.0.0.1:7921 - \"POST /post HTTP/1.1\" 201"}
+{"asctime": "2025-09-22T09:16:34", "msecs": 748.0, "levelname": "INFO", "correlation_id": "8dd2a273", "name": "uvicorn.access", "lineno": 473, "message": "127.0.0.1:7926 - \"POST /comment HTTP/1.1\" 404"}
+{"asctime": "2025-09-22T09:16:42", "msecs": 525.0, "levelname": "INFO", "correlation_id": "d7900ac7", "name": "uvicorn.access", "lineno": 473, "message": "127.0.0.1:7928 - \"GET /post HTTP/1.1\" 200"}
+{"asctime": "2025-09-22T09:16:51", "msecs": 539.0, "levelname": "INFO", "correlation_id": "b49b33ce", "name": "uvicorn.access", "lineno": 473, "message": "127.0.0.1:7930 - \"GET /post/0 HTTP/1.1\" 404"}
+{"asctime": "2025-09-22T09:17:15", "msecs": 475.0, "levelname": "INFO", "correlation_id": "-", "name": "uvicorn.error", "lineno": 264, "message": "Shutting down"}
+{"asctime": "2025-09-22T09:17:15", "msecs": 583.0, "levelname": "INFO", "correlation_id": "-", "name": "uvicorn.error", "lineno": 67, "message": "Waiting for application shutdown."}
+{"asctime": "2025-09-22T09:17:15", "msecs": 587.0, "levelname": "INFO", "correlation_id": "-", "name": "uvicorn.error", "lineno": 76, "message": "Application shutdown complete."}
+{"asctime": "2025-09-22T09:17:15", "msecs": 591.0, "levelname": "INFO", "correlation_id": "-", "name": "uvicorn.error", "lineno": 94, "message": "Finished server process [9508]", "color_message": "Finished server process [\u001b[36m%d\u001b[0m]"}

@@ -1,3 +1,4 @@
+
 from functools import lru_cache
 from typing import Optional
 
@@ -15,6 +16,7 @@ class BaseConfig(BaseSettings):
 class GlobalConfig(BaseConfig):
     DATABASE_URL: Optional[str] = None
     DB_FORCE_ROLL_BACK: bool = False
+    LOGTAIL_API_KEY: Optional[str] = None
 
 
 class DevConfig(GlobalConfig):
